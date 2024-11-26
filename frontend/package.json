@@ -35,8 +35,12 @@
   "dependencies": {
     "@plone/volto": "workspace:*",
     "@plone/registry": "workspace:*",
-    "volto-ploneconf2024": "workspace:*"
+    "volto-ploneconf2024": "workspace:*",
+    "@plonegovbr/volto-code-block": "*"
   },
+  "addons": [
+    "@plonegovbr/volto-code-block"
+  ],
   "devDependencies": {
     "mrs-developer": "^2.2.0"
   },
